@@ -13,6 +13,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+using StashGridClass = StashGrid;
+
 namespace StashSearch
 {
     public class TraderScreenComponent : MonoBehaviour

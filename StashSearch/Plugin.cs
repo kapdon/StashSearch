@@ -18,7 +18,7 @@ namespace StashSearch
     [BepInPlugin("com.dirtbikercj.StashSearch", "StashSearch", "1.1.1")]
     public class Plugin : BaseUnityPlugin
     {
-        public const int TarkovVersion = 29197;
+        public const int TarkovVersion = 29351;
 
         public static Plugin? Instance;
         public static ManualLogSource Log;

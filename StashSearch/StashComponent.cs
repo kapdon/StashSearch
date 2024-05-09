@@ -1,4 +1,4 @@
-﻿using Aki.Reflection.Utils;
+﻿using StayInTarkov;
 using Comfort.Common;
 using EFT;
 using EFT.InventoryLogic;
@@ -15,6 +15,8 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+
+using ClientAppUtils = StayInTarkov.StayInTarkovHelperConstants;
 
 namespace StashSearch
 {

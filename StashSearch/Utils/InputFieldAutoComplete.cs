@@ -5,6 +5,8 @@ using BepInEx;
 using EFT.InventoryLogic;
 using TMPro;
 
+using StashGridClass = StashGrid;
+
 namespace StashSearch.Utils
 {
     public class InputFieldAutoComplete

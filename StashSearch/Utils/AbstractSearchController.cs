@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
+using StashGridClass = StashGrid;
+
 namespace StashSearch.Utils
 {
     internal abstract class AbstractSearchController

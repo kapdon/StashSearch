@@ -8,6 +8,8 @@ using System.Collections;
 using EFT.UI;
 using System.Reflection;
 
+using StashGridClass = StashGrid;
+
 namespace StashSearch.Utils
 {
     internal class SearchController : AbstractSearchController

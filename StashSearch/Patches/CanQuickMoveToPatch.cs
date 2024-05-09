@@ -1,7 +1,9 @@
-﻿using Aki.Reflection.Patching;
+﻿using StayInTarkov;
 using EFT.InventoryLogic;
 using HarmonyLib;
 using System.Reflection;
+
+using ItemContextAbstractClass = AbstractItemContext;
 
 namespace StashSearch.Patches
 {

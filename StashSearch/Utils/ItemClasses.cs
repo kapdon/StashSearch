@@ -4,6 +4,17 @@ using System.Linq;
 using EFT.HealthSystem;
 using EFT.InventoryLogic;
 
+// SIT 29351
+using GClass2704 = GItem3;
+using KnifeClass = FoodClass1;
+// GClass2637 = GClass2648
+// GClass2685 = ArmorClass1
+// GClass2686 = GClass2697
+// GClass2648 = GClass2659
+// GClass2738 = GItem16
+using GClass2720 = GItem13;
+using GClass2731 = GItem15;
+
 namespace StashSearch
 {
     public static class ItemClasses
@@ -48,11 +59,11 @@ namespace StashSearch
             {ItemClassId.WeaponMods, item => item is Mod},
             {ItemClassId.Grenades, item => item is GrenadeClass},
             {ItemClassId.Barter, item => item is GClass2704},
-            {ItemClassId.Rigs, item => item is GClass2685},
+            {ItemClassId.Rigs, item => item is ArmorClass1},
             {ItemClassId.Goggles, item => item is GogglesClass},
-            {ItemClassId.Containers, item => item is SearchableItemClass || item is GClass2686},
-            {ItemClassId.Armor, item => item is GClass2637},
-            {ItemClassId.Info, item => item is GClass2738},
+            {ItemClassId.Containers, item => item is SearchableItemClass || item is GClass2697},
+            {ItemClassId.Armor, item => item is GClass2659},
+            {ItemClassId.Info, item => item is GItem16},
             {ItemClassId.Keys, item => item is GClass2720},
             {ItemClassId.Special, item => item is GClass2731},
             {ItemClassId.FoundInRaid, item => item.MarkedAsSpawnedInSession},
